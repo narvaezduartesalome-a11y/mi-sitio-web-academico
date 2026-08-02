@@ -1,0 +1,60 @@
+/* Diseño general */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f5ff;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #6c3bbf;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+/* Menú */
+nav {
+    background-color: #4b258a;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+/* Secciones */
+section {
+    background-color: white;
+    margin: 25px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #6c3bbf;
+}
+
+/* Pie de página */
+footer {
+    background-color: #4b258a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
