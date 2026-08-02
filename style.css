@@ -1,60 +1,141 @@
-/* Diseño general */
 body {
-    font-family: 'Poppins', Arial, sans-serif;
+
+    font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
-    background-color: #f8f5ff;
+    background-color: #f8f3fc;
     color: #333;
+
 }
 
-/* Encabezado */
+
 header {
-    background-color: #6c3bbf;
+
+    background-color: #8E44AD;
     color: white;
-    padding: 30px;
+    padding: 40px;
     text-align: center;
+
 }
+
 
 header h1 {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
     margin: 0;
-    font-size: 40px;
+
 }
 
-/* Menú */
+
 nav {
-    background-color: #4b258a;
+
+    background-color: #C39BD3;
     padding: 15px;
     text-align: center;
+
 }
+
 
 nav a {
+
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 15px;
     font-weight: bold;
+
 }
+
 
 nav a:hover {
-    color: #ffd166;
+
+    color: #8E44AD;
+
 }
 
-/* Secciones */
-section {
+
+main {
+
+    width: 85%;
+    margin: auto;
+
+}
+
+
+section, aside {
+
     background-color: white;
-    margin: 25px auto;
+    margin: 25px 0;
     padding: 25px;
-    width: 80%;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
 }
 
-h2 {
-    color: #6c3bbf;
+
+h2, h3 {
+
+    font-family: 'Poppins', sans-serif;
+    color: #8E44AD;
+
 }
 
-/* Pie de página */
+
+ul {
+
+    line-height: 2;
+
+}
+
+
+form {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+input, textarea {
+
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+
+}
+
+
+textarea {
+
+    height: 100px;
+
+}
+
+
+button {
+
+    background-color: #8E44AD;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+
+button:hover {
+
+    background-color: #6c3483;
+
+}
+
+
 footer {
-    background-color: #4b258a;
+
+    background-color: #8E44AD;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
+
 }
