@@ -154,29 +154,36 @@
 
     </p>
 
-  <form
-    action="https://formspree.io/f/xdaqqgdb"
-    method="POST" 
+  <form action="https://formspree.io/f/xdaqqgdb" method="POST">
 
-        <label>Nombre</label>
+    <label for="nombre">Nombre</label>
+    <input
+        type="text"
+        id="nombre"
+        name="nombre"
+        placeholder="Escribe tu nombre"
+        required>
 
-        <input type="text" placeholder="Escribe tu nombre">
+    <label for="correo">Correo electrónico</label>
+    <input
+        type="email"
+        id="correo"
+        name="email"
+        placeholder="correo@ejemplo.com"
+        required>
 
-        <label>Correo electrónico</label>
+    <label for="mensaje">Mensaje</label>
+    <textarea
+        id="mensaje"
+        name="message"
+        placeholder="Escribe tu mensaje"
+        required></textarea>
 
-        <input type="email" placeholder="correo@ejemplo.com">
+    <button type="submit">
+        Enviar
+    </button>
 
-        <label>Mensaje</label>
-
-        <textarea placeholder="Escribe tu mensaje"></textarea>
-
-        <button type="submit">
-
-            Enviar
-
-        </button>
-
-    </form>
+</form>
 
 </section>
 
