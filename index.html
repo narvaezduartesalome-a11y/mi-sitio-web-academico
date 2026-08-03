@@ -12,50 +12,55 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
 
+
 <header>
+
+    <div class="logo">
+        <img src="logo.png" alt="Logo de Salome">
+    </div>
 
     <h1>Salome</h1>
 
     <p>Mi sitio web académico</p>
 
+    <a href="#sobre-mi" class="boton">Conocer más</a>
+
 </header>
+
 
 
 <nav>
 
     <a href="#bienvenida">Inicio</a>
-
     <a href="#sobre-mi">Sobre mí</a>
-
     <a href="#formacion">Formación</a>
-
     <a href="#proyectos">Proyectos</a>
-
     <a href="#habilidades">Habilidades</a>
-
     <a href="#contacto">Contacto</a>
 
 </nav>
 
 
+
 <main>
+
 
 <section id="bienvenida" class="principal">
 
     <h2>¡Bienvenido!</h2>
 
     <p>
-
         Hola, soy <strong>Salome</strong>. Este sitio web presenta mi perfil
         académico, mis proyectos y mis principales habilidades como estudiante.
         Aquí encontrarás información sobre mi formación, mis intereses y algunos
         trabajos que representan mi proceso de aprendizaje.
-
     </p>
 
 </section>
+
 
 
 <section id="sobre-mi">
@@ -63,142 +68,254 @@
     <h2>Sobre mí</h2>
 
     <p>
-
         Soy una estudiante responsable, organizada y comprometida con mi
         formación académica. Me gusta aprender nuevos conocimientos,
         trabajar en equipo y desarrollar proyectos que fortalezcan mis
         habilidades personales y profesionales.
-
     </p>
 
 </section>
+
 
 
 <section id="formacion">
 
     <h2>Formación académica</h2>
 
-    <article>
+
+    <article class="tarjeta">
 
         <h3>Educación</h3>
 
         <p>
-
-            Actualmente me encuentro cursando mi educación media, fortaleciendo
-            competencias en diferentes áreas del conocimiento y participando en
-            proyectos académicos que aportan a mi crecimiento personal.
-
+            Actualmente me encuentro cursando mi educación media,
+            fortaleciendo competencias en diferentes áreas del conocimiento
+            y participando en proyectos académicos que aportan a mi
+            crecimiento personal.
         </p>
 
     </article>
 
+
 </section>
+
+
 
 
 <section id="proyectos">
 
-    <h2>Proyectos destacados</h2>
+<h2>Proyectos destacados</h2>
 
-    <article>
 
-        <h3>Mis trabajos</h3>
+<div class="tarjetas">
 
-        <ul>
 
-            <li>Marca personal.</li>
+<article class="tarjeta">
 
-            <li>Sitio web académico.</li>
+<h3>Marca personal</h3>
 
-            <li>Proyecto sobre el Parque La Isleta.</li>
+<p>
+Proyecto enfocado en construir una identidad visual,
+representando mis valores y características como estudiante.
+</p>
 
-            <li>Actividades de investigación y diseño.</li>
+</article>
 
-        </ul>
 
-    </article>
+
+<article class="tarjeta">
+
+<h3>Sitio web académico</h3>
+
+<p>
+Diseño y desarrollo de un espacio digital donde presento
+mi perfil, habilidades y aprendizajes.
+</p>
+
+</article>
+
+
+
+<article class="tarjeta">
+
+<h3>Parque La Isleta</h3>
+
+<p>
+Investigación histórica y cultural sobre un lugar
+representativo de Cartago.
+</p>
+
+</article>
+
+
+</div>
+
 
 </section>
+
+
+
 
 
 <section id="habilidades">
 
-    <h2>Habilidades e intereses</h2>
 
-    <ul>
+<h2>Habilidades e intereses</h2>
 
-        <li>Responsabilidad.</li>
 
-        <li>Creatividad.</li>
+<div class="tarjetas">
 
-        <li>Organización.</li>
 
-        <li>Trabajo en equipo.</li>
+<div class="tarjeta">
 
-        <li>Diseño web.</li>
+<h3>Responsabilidad</h3>
 
-        <li>Aprendizaje continuo.</li>
+<p>
+Compromiso y cumplimiento con mis actividades académicas.
+</p>
 
-    </ul>
+</div>
+
+
+
+<div class="tarjeta">
+
+<h3>Creatividad</h3>
+
+<p>
+Capacidad para generar nuevas ideas y soluciones.
+</p>
+
+</div>
+
+
+
+
+<div class="tarjeta">
+
+<h3>Organización</h3>
+
+<p>
+Planificación adecuada del tiempo y tareas.
+</p>
+
+</div>
+
+
+
+<div class="tarjeta">
+
+<h3>Trabajo en equipo</h3>
+
+<p>
+Colaboración y respeto en proyectos grupales.
+</p>
+
+</div>
+
+
+
+<div class="tarjeta">
+
+<h3>Diseño web</h3>
+
+<p>
+Interés por crear espacios digitales atractivos.
+</p>
+
+</div>
+
+
+
+</div>
+
 
 </section>
+
+
+
+
 
 
 <section id="contacto">
 
-    <h2>Contacto</h2>
 
-    <p>
+<h2>Contacto</h2>
 
-        Si deseas comunicarte conmigo puedes hacerlo mediante el siguiente
-        formulario.
 
-    </p>
+<p>
+Si deseas comunicarte conmigo puedes hacerlo mediante el siguiente formulario.
+</p>
 
-  <form action="https://formspree.io/f/xdaqqgdb" method="POST">
 
-    <label for="nombre">Nombre</label>
-    <input
-        type="text"
-        id="nombre"
-        name="nombre"
-        placeholder="Escribe tu nombre"
-        required>
 
-    <label for="correo">Correo electrónico</label>
-    <input
-        type="email"
-        id="correo"
-        name="email"
-        placeholder="correo@ejemplo.com"
-        required>
+<form>
 
-    <label for="mensaje">Mensaje</label>
-    <textarea
-        id="mensaje"
-        name="message"
-        placeholder="Escribe tu mensaje"
-        required></textarea>
 
-    <button type="submit">
-        Enviar
-    </button>
+<label for="nombre">
+Nombre
+</label>
+
+
+<input 
+type="text"
+id="nombre"
+placeholder="Escribe tu nombre">
+
+
+
+<label for="correo">
+Correo electrónico
+</label>
+
+
+<input
+type="email"
+id="correo"
+placeholder="correo@ejemplo.com">
+
+
+
+<label for="mensaje">
+Mensaje
+</label>
+
+
+<textarea
+id="mensaje"
+placeholder="Escribe tu mensaje">
+</textarea>
+
+
+
+<button type="submit">
+Enviar
+</button>
+
 
 </form>
 
+
+
 </section>
+
+
 
 </main>
 
 
+
+
+
 <footer>
 
-    <p>
-
-        © 2026 Salome | Sitio Web Académico
-
-    </p>
+<p>
+© 2026 Salome | Sitio Web Académico
+</p>
 
 </footer>
+
+
 
 </body>
 
